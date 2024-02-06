@@ -1,0 +1,27 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "preinstall": "node .vscode/install.vsix.js",
+    "commit": "git pull && gitmoji -c && git push",
+    "format": "prettier -w ./**/*.md"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{md}": [
+      "prettier -w ./**/*.md"
+    ]
+  },
+  "devDependencies": {
+    "gitmoji-cli": "^8.0.0",
+    "lint-staged": "^13.2.0",
+    "prettier": "2.8.8",
+    "simple-git-hooks": "^2.8.1"
+  },
+  "author": "liuhuiyuan",
+  "license": "ISC"
+}
