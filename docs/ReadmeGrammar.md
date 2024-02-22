@@ -70,16 +70,13 @@ ASD[^1]ASD :tada:
 -   [ ] AS
 -   [x] CXC
 
-::: mermaid
+```mermaid
 graph TD;
 A-->B;
 A-->C;
 B-->D;
 C-->D;
-:::
-:xx:
-
-aa:e
+```
 
 # 展示效果
 
