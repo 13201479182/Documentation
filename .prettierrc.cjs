@@ -1,6 +1,7 @@
+// prettier-ignore
 module.exports = {
-    printWidth: 100,
-    tabWidth: 2,
+    printWidth: 100,            // 换行长度
+    tabWidth: 4,                // 缩进空格
     semi: true,
     singleQuote: true,
     quoteProps: 'consistent',
@@ -8,6 +9,5 @@ module.exports = {
     bracketSpacing: true,
     bracketSameLine: true,
     arrowParens: 'avoid',
-    endOfLine: 'auto',
-    singleAttributePerLine: false,
+    endOfLine: 'lf',            // 采用lf换行
 };

@@ -1,12 +1,7 @@
-# Ignore file
-.prettierrc.cjs
-package.json
-package-lock.json
-
 # Ignore folder:
-**/.vscode
+.vscode
 
 # Ignore all files:
-**/*.js
-**/*.json
-**/*.cjs
+# **/*.js
+# **/*.json
+# **/*.cjs
